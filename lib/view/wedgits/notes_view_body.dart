@@ -25,7 +25,7 @@ class NoteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 197, 186, 90),
+        color: const Color(0xffFFCCBB),
         borderRadius: BorderRadius.circular(16)
       ), 
       child: Column(
@@ -33,10 +33,11 @@ class NoteItem extends StatelessWidget {
         children: [
           ListTile( 
             title: const Text('Flutter Tips',style: TextStyle(
-              color: Colors.black,
+              color: Colors.black,fontSize: 26,
             ),),
-            subtitle: const Text('Build your career with Tharwat Samy',style: TextStyle(
-              color: Colors.black,
+            subtitle:  Text('Build your career with Tharwat Samy',style: TextStyle(
+              color: Colors.black.withOpacity(.4),
+              ,fontSize: 20,
             ),),
             trailing: IconButton(
               onPressed: (){},
