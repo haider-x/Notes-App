@@ -46,7 +46,7 @@ class NoteItem extends StatelessWidget {
           ),
           const Text('May21 , 2022',style: TextStyle(
               color: Colors.black,
-              
+              fontFamily: 'Poppins '
             ),)
 
         ],
