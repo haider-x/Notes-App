@@ -41,12 +41,9 @@ class NoteItem extends StatelessWidget {
             trailing: IconButton(
               onPressed: (){},
                icon: const Icon(Icons.delete,color: Colors.black,)),
-
-
           ),
           const Text('May21 , 2022',style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Poppins '
             ),)
 
         ],
