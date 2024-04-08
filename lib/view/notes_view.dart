@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:notesapp_git/view/wedgits/custom_bottom_sheet.dart';
-import 'package:notesapp_git/view/wedgits/custom_textfield.dart';
 import 'package:notesapp_git/view/wedgits/notes_view_body.dart';
 
 class NotesView extends StatefulWidget {
