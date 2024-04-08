@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:notesapp_git/view/wedgits/custom_app_bar.dart';
-import 'package:notesapp_git/view/wedgits/custom_note_item.dart';
 import 'package:notesapp_git/view/wedgits/notes_list_view.dart';
 
 
