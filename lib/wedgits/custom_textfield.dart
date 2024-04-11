@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:notesapp_git/view/constants/constants.dart';
+import 'package:notesapp_git/constants/constants.dart';
 
 
 class CustomTextField extends StatelessWidget {

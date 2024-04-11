@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notesapp_git/view/wedgits/add_note_bottom_sheet.dart';
-import 'package:notesapp_git/view/wedgits/notes_view_body.dart';
+import 'package:notesapp_git/wedgits/add_note_bottom_sheet.dart';
+import 'package:notesapp_git/wedgits/notes_view_body.dart';
 
 class NotesView extends StatefulWidget {
   const NotesView({super.key});
