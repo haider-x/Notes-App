@@ -22,3 +22,31 @@ class NoteApp extends StatelessWidget {
     );
   }
 }
+
+
+
+// part of 'add_note_cubit.dart';
+
+// @immutable
+// sealed class AddNoteState {}
+
+// final class AddNoteInitial extends AddNoteState {}
+// class AddNoteLoading extends AddNoteState{}
+// class AddNoteSucess extends AddNoteState{}
+// class AddNoteFailure extends AddNoteState{
+//   final String errMessage ;
+
+//   AddNoteFailure({required this.errMessage});
+// }
+
+
+
+// import 'package:bloc/bloc.dart';
+// import 'package:meta/meta.dart';
+
+// part 'add_note_state.dart';
+
+// class AddNoteCubit extends Cubit<AddNoteState> {
+//   AddNoteCubit() : super(AddNoteInitial());
+// }
+
